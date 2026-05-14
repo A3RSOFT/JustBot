@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ChatP MultiBot Server</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>ChatP MultiBot Server</h1>
+
+    <form id="loginForm">
+        <input type="text" name="username" placeholder="Main Bot Username">
+        <input type="password" name="password" placeholder="Password">
+        <button type="submit">Login</button>
+    </form>
+
+    <hr>
+
+    <form id="childForm">
+        <input type="text" name="room" placeholder="Room Name">
+        <input type="text" name="child_username" placeholder="Child Bot Username">
+        <button type="submit">Create Child Bot</button>
+    </form>
+
+    <div id="result"></div>
+</div>
+
+<script src="/static/app.js"></script>
+</body>
+</html>
