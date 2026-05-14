@@ -4,4 +4,4 @@ websocket-client
 eventlet
 requests
 yt-dlp
-tinyurl
+gunicorn
