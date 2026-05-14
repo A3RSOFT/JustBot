@@ -1,0 +1,7 @@
+flask
+flask-socketio
+websocket-client
+eventlet
+requests
+yt-dlp
+tinyurl
